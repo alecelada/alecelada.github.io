@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ubicación - GAD </title>
+    <style>
+        body {
+            font-family: "Gill Sans", sans-serif;
+            background-color: #8db2f2;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #427fb8;
+        }
+
+        header img {
+            margin-right: 15px;
+        }
+
+        nav {
+            display: flex;
+            gap: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #8db2f2;
+        }
+
+        .section-content {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .section-content.mision {
+            background-image: url('10.AVIF');
+        }
+
+        .section-content.vision {
+            background-image: url('fondo-vision.jpg');
+        }
+
+        .carrusel {
+            width: 40%;
+            overflow: hidden;
+        }
+
+        .carrusel img {
+            max-width: 100%;
+            display: block;
+        }
+
+        footer {
+            background-color: #427fb8;
+            padding: 10px;
+            text-align: right;
+            padding: 10px;
+            background-color: #427fb8;
+        }
+
+        footer img {
+            width: 30px;
+            margin: 5px;
+        }
+
+        header span {
+            font-family: "Gill Sans", serif;
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        h1 ,h2 {
+            font-family: "Times New Roman", serif; 
+            font-size: 1.5em;
+        }
+
+        .overlay-background {
+            background-image: url('20.JPEG');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 20px;
+            height: 365px;
+            width: 1000px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+}
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="logo.jpg" width="100" height="100" alt="Logo GAD">
+        <h1> <font color = "white"> GAD "Perfumes y Variedades"</font></h1>
+        <nav>
+            <a href="index.html"> <font size = "6.5"> Inicio </font> </a>
+            <a href="Conocenos.html"> <font size = "6.5"> Conócenos </font> </a>
+            <a href="Productos.html"> <font size = "6.5"> Productos </font> </a>
+            <a href="Contactanos.html"> <font size = "6.5"> Contactanos </font> </a>
+            <a href="Ubicación.html"> <font size = "6.5"> Ubicación </font></a>
+        </nav>
+    </header>
+
+    <section>
+        <h2> <font size = "10"> <center> ¡Visitanos! </center> </font> </h2>
+            <div class="background-text">
+        <h2> <font size = "5"> Dirección </font> </h2>
+                <p> <font size ="5"> 2da. avenida y 3ra. calle Zona 2 Barrio San Francisco Jalapa, Jalapa, Guatemala </font> </p>
+            </div>
+            <br>
+            <center>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d654.622318463705!2d-89.99006051129798!3d14.635614031180458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sgt!4v1695266949113!5m2!1ses-419!2sgt" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </center>
+    </section>
+        
+        <footer>
+            <font color = "white"><center> 2023 GAD "Perfumes y Variedades" </center></font>
+         </footer>
+</body>
+</html>
